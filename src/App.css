@@ -1,0 +1,85 @@
+#root {
+  max-width: 1400px;
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  height: 85px;
+  background: linear-gradient(
+    to right top,
+    #051937,
+    #673065,
+    #ca4663,
+    #ff8b38,
+    #ebe912
+  );
+  color: white;
+  padding: 20px;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 10px;
+}
+
+.header--title {
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px/ 1fr 1fr;
+  gap: 20px;
+  width: 500px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+}
+
+.form--input {
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+  border-radius: 8px;
+  height: 50px;
+  border: 1px solid #051937;
+}
+
+.button--image {
+  width: 40px;
+  margin: 0 10px;
+  color: #ffffff;
+}
+
+main {
+  padding: 36px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #673065;
+  border-radius: 8px;
+  height: 50px;
+  border: 1px solid #051937;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
